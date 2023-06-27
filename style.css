@@ -22,8 +22,7 @@ select{
     border: 1px solid rgba(241, 83, 31, 0.814);
 }
 .banner{
-    background-image: url("/public/styles/images/deluxe_room.jpg");
-   
+    background-image: url("./deluxe_room.jpg");
     height: 200px;
     width: 1200px;
   
@@ -69,7 +68,7 @@ p{
     font-weight: bold;
 }
 .bg-img{
-    background-image: url("../styles/images/mainbg.jpg");
+    background-image: url("./mainbg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
