@@ -1,0 +1,209 @@
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+header{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.931), rgb(248, 124, 0));
+}
+#totalDays{
+    border: .5px solid rgba(241, 83, 31, 0.814);
+    width: 12%;
+    height: 8%;
+    text-align: center;
+}
+input{
+    border: 1px solid rgba(241, 83, 31, 0.814);
+}
+select{
+    border: 1px solid rgba(241, 83, 31, 0.814);
+}
+.banner{
+    background-image: url("/public/styles/images/deluxe_room.jpg");
+   
+    height: 200px;
+    width: 1200px;
+  
+}
+.b-title:hover{
+    opacity: 1;
+}
+.b-title{
+    background-color: black;
+    height: 200px;
+    width: 1200px;
+    opacity: 0.8;
+}
+.b-txt{
+   opacity: 1;
+}
+.b1{
+    color: rgba(241, 83, 31, 0.814);
+    margin-left: 200px;
+    font-size: 30px;
+   
+}
+h4{
+    color: rgba(241, 83, 31, 0.814);
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: -30px;
+   
+}
+p{
+    color: rgba(241, 83, 31, 0.814);
+    font-size: 80px;
+    margin-left: 200px;
+    margin-top: -30px;
+    
+}
+
+.nav-link{
+    color: rgb(235, 246, 255);
+}
+.nav-link:hover{
+    color: aliceblue;
+    font-weight: bold;
+}
+.bg-img{
+    background-image: url("../styles/images/mainbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-shade{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+ 
+.info{
+    border: 2px solid rgb(255, 244, 244);
+    box-shadow:10px 10px 10px 5px rgb(0, 0, 0);
+    margin-top: -350px;
+}
+.form{
+    margin-top: 20%;
+}
+.marq{
+    margin-top: 200px;
+}
+.sec2{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(38, 38, 39));
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+    @media only screen and (max-width: 860px) {
+        .marq {
+            width: 80%;
+        }
+    
+        .form {
+            margin-top: 20%;
+        }
+    
+        
+    }
+
+@media only screen and (max-width: 428px)  {
+    nav{
+        background-color: rgb(238, 193, 110);
+    }
+    
+    .bg-img{
+        background-image: url("../styles/images/mainbg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .bg-shade{
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100vh;
+    }
+    
+    .sec2{
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(98, 98, 222));
+        /* text-align: center; */
+        width: 100%;
+       
+        
+    }
+    .form{
+        margin-top: 40%;
+        
+        text-align: center;
+    }
+    
+    
+    .marq{
+       width: 80%;
+       
+    }
+    .info{
+        /* border: 2px solid rgb(255, 244, 244);
+        box-shadow:10px 10px 10px 5px rgb(0, 0, 0); */
+        margin-top: -550px;
+        width: 300px;
+       overflow: hidden;
+       text-align: center;
+       
+       
+    }
+    #checkInDate{
+        /* margin-left: 60px; */
+        margin-top: 10px;
+        width: 90%;
+        margin-right: 20px;
+    }
+    #checkOutDate{
+        /* margin-left: 30px; */
+        margin-top: 10px;
+        width: 90%;
+        margin-left: -10px;
+    }
+    #txtMob{
+        width: 90%;
+        /* margin-left: 30px; */
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #txtEml{
+        width: 90%;
+        /* margin-left: 30px; */
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    #txtFname{
+        margin-left: 10px;
+    }
+    #txtLname{
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    
+    .bgtxt{
+        text-align: center;
+        padding: 50px;
+    }
+    .bg-img{
+        background-image: url("../styles/images/mainbg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    #totalDays{
+        margin-left: 125px;
+    }
+    option{
+        width: 100%;
+    }
+}
