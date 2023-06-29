@@ -12,10 +12,10 @@ header {
 
 #totalDays {
     border: .5px solid rgba(241, 83, 31, 0.814);
-    width: 12%;
+    width: 30%;
     height: 8%;
     text-align: center;
-    margin-left: 245px;
+    margin-left: 200px;
 }
 
 input {
@@ -171,7 +171,8 @@ img:hover {
     
 
     #totalDays {
-        margin-left: 128px;
+        margin-left: 110px;
+        
     }
 
     option {
@@ -271,7 +272,7 @@ img:hover {
 
 
     #totalDays {
-        margin-left: 128px;
+        margin-left: 110px;
     }
 
     option {
